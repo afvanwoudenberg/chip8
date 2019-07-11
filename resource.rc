@@ -1,0 +1,18 @@
+// resource.rc
+// Aswin F. van Woudenberg
+
+#include "resource.h"
+
+IDI_MAINICON ICON "chip-8.ico"
+
+IDW_BEEP WAVE "beep.wav"
+
+STRINGTABLE
+{
+    IDS_APPNAME, "Chip-8"
+    IDS_OPEN, "Open..."
+	IDS_RESET, "Reset"
+	IDS_SOUND, "Sound"
+	IDS_FILE_ERROR, "An error occurres while reading the file."
+	IDS_FILE_NOT_FOUND, "Invalid argument or no valid program file found."
+} 
